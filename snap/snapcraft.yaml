@@ -3,21 +3,7 @@
   version: '1.1'
   summary: Tests and improves the security of Linux machine
   description: |
-       System Requirements
-       This is a shell script aimed at the Debian based Linux operating systems, or rather, ones that use the APT package manager (such as Kali, Mint, Ubuntu, elementary OS etc) for a more comprehensive list of supported distributions please see https://distrowatch.com/search.php?basedon=Debian
-       
-       Running the script:
-       
-       Open the terminal and type:
-       sudo -s   [Then, when asked, enter your password, this will start a shell as root to prevent interference's]
-       cd Desktop   [change directory to Desktop, or wherever you saved the script]
-       chmod +x TuxTron.sh   [make the script executable]
-      ./TuxTron.sh   [Then, execute the script]
-
-      What it does?
-      Built with the security conscious hobbyists or full blown information security professionals in mind, this tool is aimed at helping you ensure your Linux system is secure by checking your firewall, antivirus software, local configurations and updates are all in check including Port scanning on your WAN IP, performing an in depth Lynis audit and more. This script is open source, and will be built upon by the Linux community in the future.
-
-      Support email: craig.fox@owasp.org   
+      A shell script to test the security of your debian Linux distro. 
       
       
   grade: stable # must be 'stable' to release into candidate/stable channels
