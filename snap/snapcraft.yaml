@@ -7,7 +7,7 @@
       secure by checking your firell, antivirus software, local configurations and updates are all in check including Port scanning on your WAN IP, performing an in depth 
       Lynis audit and more. This script is open source, and will be built upon by the Linux community in the future.
 
-  grade: devel # must be 'stable' to release into candidate/stable channels
+  grade: stable # must be 'stable' to release into candidate/stable channels
   confinement: devmode # use 'strict' once you have the right plugs and slots
 
   parts:
