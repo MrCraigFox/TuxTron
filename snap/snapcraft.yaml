@@ -7,7 +7,7 @@
       
   apps:
       tuxtron:
-             command: sudo -s; chmod +x TuxTron.sh; ./TuxTron.sh
+             command: sudo chmod +x TuxTron.sh; sudo ./TuxTron.sh
       
   grade: stable # must be 'stable' to release into candidate/stable channels
   confinement: strict # use 'strict' once you have the right plugs and slots
