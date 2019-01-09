@@ -3,7 +3,7 @@
   version: '1.1'
   summary: Tests and improves the security of Linux machine
   description: |
-      A shell script to test the security of your debian Linux distro. 
+      A shell script to test the security of your debian Linux distribution (Debian based).
       
       
   grade: stable # must be 'stable' to release into candidate/stable channels
