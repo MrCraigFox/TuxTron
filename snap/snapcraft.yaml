@@ -5,6 +5,9 @@
   description: |
       A shell script to test the security of your debian Linux distribution (Debian based).
       
+  apps:
+      tuxtron:
+             command: sudo -s; chmod +x TuxTron.sh; ./TuxTron.sh
       
   grade: stable # must be 'stable' to release into candidate/stable channels
   confinement: strict # use 'strict' once you have the right plugs and slots
