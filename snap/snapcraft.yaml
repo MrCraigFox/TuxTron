@@ -1,0 +1,29 @@
+
+  name: tuxtron
+  version: 1.1
+  summary: A script to help you protect and secure your debian based Linux distro
+  description: |
+    
+        System Requirements:
+        This is a shell script aimed at the Debian based Linux operating systems, or rather, ones that use the 
+        APT package manager (such as Kali, Mint, Ubuntu, elementary OS etc) for a more comprehensive list of supported 
+        distributions please see https://distrowatch.com/search.php?basedon=Debian
+
+        What it does?
+        Built with the security conscious hobbyists or full blown information security professionals in mind, this tool is aimed 
+        at helping you ensure your Linux system is secure by checking your firewall, antivirus software, local configurations and
+        updates are all in check including Port scanning on your WAN IP, performing an in depth Lynis audit and more. 
+        This script is open source, and will be built upon by the Linux community in the future.
+
+         Git repos: https://github.com/MrCraigFox/TuxTron
+
+        Support email: craig.fox@owasp.org
+
+  grade: stable # must be 'stable' to release into candidate/stable channels
+  confinement: strict # use 'strict' once you have the right plugs and slots
+
+  parts:
+    my-part:
+      # See 'snapcraft plugins'
+      plugin: nil
+  
